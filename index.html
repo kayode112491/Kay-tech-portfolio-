@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kay Tech | Personal Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #080808;
+    color: white;
+    line-height: 1.7;
+}
+
+header {
+    background: #111;
+    padding: 25px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    color: #a855f7;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #a855f7;
+}
+
+.hero {
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.profile {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    border: 5px solid #a855f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 65px;
+    font-weight: bold;
+    color: #a855f7;
+    box-shadow: 0 0 25px #a855f7;
+    margin-bottom: 30px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin: 15px 0;
+}
+
+.highlight {
+    color: #a855f7;
+}
+
+.hero p {
+    color: #bbb;
+    font-size: 18px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 28px;
+    background: #a855f7;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+section {
+    padding: 70px 10%;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 32px;
+    color: #a855f7;
+    margin-bottom: 25px;
+}
+
+.card {
+    background: #151515;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 15px auto;
+    max-width: 650px;
+    border: 1px solid #333;
+}
+
+.card p {
+    color: #ccc;
+}
+
+footer {
+    background: #111;
+    padding: 25px;
+    text-align: center;
+    color: #aaa;
+}
+
+@media(max-width: 600px) {
+    header {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">KAY TECH.</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero" id="home">
+
+    <div class="profile">KT</div>
+
+    <p>WELCOME TO MY PORTFOLIO</p>
+
+    <h1>I'm <span class="highlight">Kay Tech</span></h1>
+
+    <p>Information Systems Student | Aspiring Web Developer</p>
+
+    <a href="#about" class="button">Discover More</a>
+
+</div>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <div class="card">
+        <p>
+        My name is Mustapha Kayode Timileyin,
+        popularly known as Kay Tech.
+
+        I am a jovial, friendly and enthusiastic
+        individual who is always ready to learn,
+        grow and explore new opportunities.
+
+        I have a passion for technology and
+        building websites.
+        </p>
+    </div>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+
+    <div class="card">
+        <h3>Information Systems (IFS)</h3>
+        <p>Federal University of Technology, Akure (FUTA)</p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>My Interests</h2>
+
+    <div class="card">
+        <p>• Web Development</p>
+        <p>• Technology and Innovation</p>
+        <p>• Learning New Skills</p>
+        <p>• Creative Problem Solving</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <div class="card">
+        <p>Phone: 08133329777</p>
+
+        <a class="button"
+        href="https://wa.me/2348133329777">
+        Chat With Me on WhatsApp
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Kay Tech. All Rights Reserved.</p>
+    <p>Designed with passion by Kay Tech.</p>
+</footer>
+
+</body>
+</html>
